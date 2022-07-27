@@ -16,7 +16,7 @@ const images = [
         name: "Photo 3"
     },
     {
-        url: "./slider-images/Projectimg20.webp",
+        url: "./slider-images/projectimg20.webp",
         name: "Photo 4"
     },
 ];
