@@ -42,6 +42,8 @@ a{
   border: 6px solid grey;
   border-radius: 46px;
   margin-left: 678px;
+  list-style: none;
+  text-decoration: none;
 }
 .navbar .max-width {
   display: flex;

@@ -1,8 +1,7 @@
 import React from 'react'
 import SimpleSlider from './Slider'
-// import SimpleSlider from './Slider'
-// import SimpleImageSlider from 'react-simple-image-slider'
-// import Slider from './Slider'
+
+import { Link } from 'react-router-dom'
 
 const homePage = () => {
 
@@ -18,7 +17,7 @@ const homePage = () => {
 
 
                     <div className="button">
-                        <a href="shop.html">Shop Now</a>
+                    <Link to="/products"> <li><a href="Products">Shop Now</a></li></Link>                        
                     </div>
 
                 </div>
