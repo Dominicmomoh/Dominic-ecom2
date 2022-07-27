@@ -1,0 +1,77 @@
+[
+    {
+        "image": "./Images/PrjImg1.jpeg",
+        "name": "Caramel Gold Hoodie w/ graphic and string",
+        "price": 79.99
+    },
+    {
+        "image": "./Images/PrjImg2.jpeg",
+        "name": "Grey Sweatshirt w/ graphic",
+        "price": 64.99
+    },
+    {
+        "image": "./Images/PrjImg3.jpeg",
+        "name": "Black & Yellow Sweatpants",
+        "price": 49.99
+    },
+    {
+        "image": "./Images/PrjImg4.jpeg",
+        "name": "Black Hoodie w/ graphic on the back",
+        "price": 83.99
+    },
+    {
+        "image": "./Images/PrjImg5.jpeg",
+        "name": "Plain White Shirt",
+        "price": 50.00
+    },
+    {
+        "image": "./Images/PrjImg6.png",
+        "name": "Pink T-Shirt w/ tropical graphic",
+        "price": 49.99
+    },
+    {
+        "image": "./Images/PrjImg7.png",
+        "name": "Beige, Stay Wild Fun ",
+        "price": 45.00
+    },
+    {
+        "image": "./Images/PrjImg8.png",
+        "name": "Light-Green sweater w/ graphic printed",
+        "price": 45.78
+    },
+    {
+        "image": "./Images/PrjImg9.jpeg",
+        "name": "Black Sweater with logo printed",
+        "price": 89.25
+    },
+    {
+        "image": "./Images/PrjImg10.jpeg",
+        "name": "Jean Jacket with grey patches",
+        "price": 72.25
+    },
+    {
+        "image": "./Images/PrjImg11.png",
+        "name": "Green Sweater w/ graphic infront",
+        "price": 62.83
+    },
+    {
+        "image": "./Images/PrjImg12.jpeg",
+        "name": "Brown Los Angeles T-shirt w/ graphic prnited ",
+        "price": 39.48
+    },
+    {
+        "image": "./Images/PrjImg13.png",
+        "name": "Brown trench coat",
+        "price": 125.00
+    },
+    {
+        "image": "./Images/PrjImg14.jpeg",
+        "name": "Brown T-Shirt w/ graphic printed on the back",
+        "price": 49.99
+    },
+    {
+        "image": "./Images/PrjImg15.png",
+        "name": "Blue San Fransisco T-shirt",
+        "price": 50.00
+    }
+]

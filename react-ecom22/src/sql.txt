@@ -1,0 +1,73 @@
+Create DATABASE GLA;
+USE GLA;
+
+CREATE TABLE product
+(
+    id INT NOT NULL
+    AUTO_INCREMENT PRIMARY KEY,
+    productImage BLOB, 
+productName VARCHAR
+    (90),
+price DECIMAL
+    (65)
+);
+    INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg1.jpeg'),"Caramel Gold Hoodie w/ graphic and string", 79.99);
+INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+       (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg2.jpeg'),"Grey Sweatshirt w/ graphic", 64.99);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg3.jpeg'), "Wiz Khalifa Black & Yellow Sweatpants", 49.99);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg4.jpeg'), "Black Hoodie w/ graphic on the back", 83.47);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg5.jpeg'), "Plain White Shirt", 50.00);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg6.png'), "Pink T-Shirt w/ tropical graphic", 33.99);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg7.png'), "Beige, Stay Wild Fun", 45.00);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg8.png'), "Black Sweater with logo printed", 89.25);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg9.jpeg'), "Black Sweater w/ text", 83.25);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg11.png'), "Brown trench coat", 125.00);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg13.png'), "Brown T-Shirt w/ graphic printed on the back", 46.25);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg14.jpeg'), "Green Sweater w/ graphic infront", 62.83);
+        INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/ProjectImg4.jpg'), "Jean Jack w/ grey patches", 99.00);
+		INSERT INTO product
+        (productImage, productName, price)
+    VALUES
+        (LOAD_FILE('dominicmomoh/Documents/ecomImages/PrjImg15.png'), "Blue San Fransisco T-shirt", 50.00);
+
+
+    SELECT *
+    FROM product
