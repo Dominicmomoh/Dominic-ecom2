@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import Filter from './Filter'
 import ProductsJson from './Products.json'
 import Product from './Product'
-// import dboperations from '../dbfiles/dbOperation'
-// import filter from './Filter'
+
 
 const stringToNumber = (str) => {
     return parseFloat(str.replace(/[^0-9.]/g, ''));

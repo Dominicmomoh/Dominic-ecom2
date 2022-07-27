@@ -1,6 +1,6 @@
 const config = {
     user: 'root',
-    password: 'Onebaddem1738@',
+    password: 'Password',
     server: 'Mysql@localhost:3306',
     database: 'GLA',
     options: {

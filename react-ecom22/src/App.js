@@ -5,9 +5,7 @@ import HomePage from './Components/HomePage';
 import Products from './Components/Products';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { BrowserRouter as Router,  Route, Routes } from 'react-router-dom';
-// import Filter from './Components/Filter'
 
 
 
